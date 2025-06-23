@@ -330,7 +330,7 @@ its approx 1.06 * 10^140 Kaboca variants. Lets minorize it to 10^140 for easier 
 - 4% chance -> 100 super^2 Kaboca
 - 1% chance -> 1 super^3 Kaboca
 
-4.reproduction time = 24/g = 24/7 = 3.43 hours
+4. reproduction time = 24/g = 24/7 = 3.43 hours
 
 So the next generation will hatch at **62.23th** hour.
 total layed eggs = total number of Kabocas * egg count * egg lay times
@@ -357,4 +357,215 @@ we will have
 - 1% chance -> 10 + k super^3 Kaboca
 
 This doesn't affect to much Yet, cuz the function is weak. So lets continue cuz soon things will get explode!
+1. egg count = 10^256
+2. egg lay times = 8
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 10 super^2 Kaboca
+- 25% chance -> 100 super^2 Kaboca
+- 4% chance -> 1 super^3 Kaboca
+- 1% chance -> 10 super^3 Kaboca
+
+4. reproduction time = 24/g = 24/8 = **3** hours
+
+So the next generation will hatch at **65.23th** hour.
+total layed eggs = total number of Kabocas * egg count * egg lay times
+4.5 * 10^269 * 10^256 * 8 = 3.6 * 10^526
+
+## Generation 9
+
+it hatched 3.6 * 10^526 eggs
+Our Kabocas esitamate is 3.6 * 10^528.
+
+1. egg count = 10^512
+2. egg lay times = 9
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 100 super^2 Kaboca
+- 25% chance -> 1 super^3 Kaboca
+- 4% chance -> 10 super^3 Kaboca
+- 1% chance -> 100 super^3 Kaboca
+
+4. reproduction time = 24/g = 24/9 = **2.67** hours
+
+So the next generation will hatch at **67.9th** hour.
+total layed eggs = total number of Kabocas * egg count * egg lay times
+3.6 * 10^528 * 10^512 * 9 = 3.24 * 10^1040
+
+## Generation 10
+
+it hatched 3.24 * 10^1040 eggs
+Our Kabocas esitamate is 2.55 * 10^1042 .
+
+1. egg count = 10^1024
+2. egg lay times = 10
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 1 super^3 Kaboca
+- 25% chance -> 10 super^3 Kaboca
+- 4% chance -> 100 super^3 Kaboca
+- 1% chance -> 1 super^4 Kaboca
+
+4. reproduction time = 24/g = 24/10 = **2.4** hours
+
+So the next generation will hatch at **70.3th** hour.
+total layed eggs = total number of Kabocas * egg count * egg lay times
+2.55 * 10^1042 * 10^1024 * 10 = 2.55 * 10^2067
+
+## Generation 11 (here things will start a bit accelerating)
+
+it hatched 10^2067 eggs
+Now 1% of them will be super^4 kaboca estimated value around `10^2065`!
+Now we will be focusing only on this thread and leave the other thread behind. Why? Not because its irreleveant because we will hatch multiple generations **before** the other super^3 (99%) kabocas eggs hatch!
+this super^4 Kaboca will amplify the reproduction count so each generation will come faster!
+instead of
+
+- reproduction count = 24/g
+
+we will have
+
+- reproduction count = 24/ g + k
+
+which is 24/13 instead of 24/11. They hatch faster so they start their jobs earlier.
+
+1. egg count = 10^2048
+2. egg lay times = 11
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 10 super^3 Kaboca
+- 25% chance -> 100 super^3 Kaboca
+- 4% chance -> 1 super^4 Kaboca
+- 1% chance -> 10 super^4 Kaboca
+
+4. reproduction time = 1.85 hours.
+
+So the next generation will hatch at **72.15th** hour. (A bit more then 3 days) instead of **72.48th** hour.
+total layed eggs = 1.1 * 10^4113 eggs
+
+## Generation 12
+it hatched 1.1 * 10^4113 eggs
+Our Kaboca estimate is around 3 * 10^4114
+
+1. egg count = 10^4096
+2. egg lay times = 12
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 100 super^3 Kaboca
+- 25% chance -> 1 super^4 Kaboca
+- 4% chance -> 10 super^4 Kaboca
+- 1% chance -> 100 super^4 Kaboca
+
+4. reproduction time = 24/g = 24/14 = **1.71** hours
+Next will hatch in = **73.86th** hour.
+total eggs layed = 3.6 * 10^8211 eggs
+
+## Generation 13
+
+Hatched = `3.6 * 10^8211 eggs`
+Kaboca estimate = 2.55 * 10^8213
+
+1. egg count = 10^8192
+2. egg lay times = 13
+3. egg hatching probabilities for next generation will be
+- 70% chance -> 1 super^4 Kaboca
+- 25% chance -> 10 super^4 Kaboca
+- 4% chance -> 100 super^4 Kaboca
+- 1% chance -> 1 super^5 Kaboca
+
+4. reproduction time = 24/g = 24/10 = **1.6** hours
+Next will hatch in = **75.46th** hour.
+total eggs layed = 2.75 * 10^16405
+
+Now as we can see here we added super^5 Kaboca. this modifies the egg count
+Instead of 10^8192 + k it will lay (10^(8192) + k) * k which is (10^8192 + 2) * 2 cuz we said above we use the smalles value for k which is 2.
+As we can see the number of Kabocas power is likely doubleing a bit more then doubleing bt lets just say its doubleing. So because we don't have strong functions yet like exponentials, tetration etc
+we will move along with the generation and estimating its value conform this easier rule only writing down the necessary information. until we reach something bigger.
+Also when we reach the next power of superKaboca it takes around 3 generations. So the next one will appear at Generation 16 the other one at generation 19 the other at 22 and so on.
+
+## Generation 14
+1. Kaboca number = 10^16407.
+2. egg count = 10^16384
+3. reproduction time = 24/16 = 1.5 hours
+4. Next hatch in **76.96th hour**
+5. total eggs layed =  10 ^ 32791
+
+## Generation 15
+1. Kaboca number = 10^32815.
+2. egg count 10^32768
+3. reproduction time = 24/17 = 1.41 hours
+4. Next hatch in **78.37th hour**
+5. total eggs layed =  10 ^ 65,583
+
+## Generation 16
+1. Kaboca number = 10 ^ 65,585.
+2. egg count 10^65536
+3. reproduction time = 24/18 = 1.33 hours
+4. Next hatch in **79.7th hour**
+5. total eggs layed =  10 ^ 131,121
+6. Function added = F(x) = k * x to the lay times
+
+lets sonsider 131,121 power as our current value the next generation will double it the other one will quaddripple it and so on. So when the next super comes in to bring our new function we can say that
+131,121 * 4 which is `1,048,968`!
+
+## Generation 19
+1. Kaboca number = 10^524,484
+2. egg count 10^2^19
+3. reproduction time = 1.14
+4. next hatch = **83.3th hour**
+5. total eggs layed = 10^2^20
+6. function added = F(x) = k * x to the hatching numbers
+
+## Generation 22
+1. Kaboca **Power** number = 4,195,872
+2. egg count **Power** number = 4,194,304
+3. function added = F(x) = k * x to the reproduction time
+4. reproduction time = 24/((22 + k)*k) = 0.5 hours
+5. next hatch = 83.3 + 1.09 + 1.04 + 0.5 = **85.9th hour**
+6. total layed **Power** number = 8,390,176
+
+## Generation 25 (where start to explode)
+1. Kaboca **Power** number = 33,566,976
+2. egg count **Power** number = 33,566,976^k (because of a polinominal function defined below)
+3. function added = F(x) = x^k to the egg count (polynominal function) 
+4. reproduction time = 24/((25 + k)*k) = 0.44 hours
+5. next hatch = 85.9 + 0.48 +0.46 + 0.44 = **87.28th hour**
+6. total layed **Power** number = 33,554,432^k
+
+Now lets check the next one how this affects our egg count now
+## 87.28th hour
+
+### Generation 26 hatched 
+Because of F(x) = x^k to the egg count (polynominal function) added by the next tier super Kaboca, we layed
+10^1.1258999e+15 number of eggs its egg power count is = 1.12 *10^15 = 10^(1.12*10^15) Kabocas were borned.
+Our polinominal function starts to take effect now.
+
+1. Kaboca **Power** number = 1.12 *10^15
+2. egg count = (10^2^g)^k = (10^2^g)^2 = 2.3 * 10^15 eggs
+
+Now lets see what happens if we add this polynominal function to the egg lay times. Instead of (g + k)*k we will have ((g + k) * k)^2
+It doesnt effect these huge power much. The same goes to the egg Hatches. But what if we again reach the reproduction rate? Then things will explode immenseliy
+
+At Generation 32 we will reach the reproduction rate again with the polinominal function. So this what will happen!
+
+1. reproduction time = 0.363 hours
+2. next hatch time = **89.65th hour**
+
+## 89.65th hour
+it is 322,740 seconds. Here we will have a very huge number already but at just 322741 seconds (1 second more we will gonna have `5.391 * 10^44 Generations`!
+Remember we defined this functions parameter as a time not a constant! So that 1 second is gonna give us 10^44 generations!
+
+This is the `realistic Kaboca function` meaning its reproduction time is physically limited and cannot go below planck time. If we allowed reproduction time to drop below this limit, the function would converge toward
+infinity in a single second- producing inifinite number of generations. That's why we threat Planck time as the ultimate lower bound, keeping the growth finite but still unimaginably fast!
+
+**Now think about this:** we reach **32 generations** at second **322,740**, and just *one second later*, we explode to over **10⁴⁴ generations**.
+
+From this we can deduce two important patterns:
+
+1. Every **3 generations** yields a new tier of **Super Kaboca** — each adding more modifiers to the function.
+2. Every **12 generations** unlocks a **higher-level function** (affine → multiplicative → exponential → tetration → pentation → …).
+
+This means that in the span of *just one second*, the entire functional structure accelerates up the hyperoperation ladder, eventually reaching levels that surpass even functions like **TREE(n)** for finite _n_. This growth is not just fast — it’s explosive beyond comprehension.
+
+**Also, we haven't even reached the 90th hour yet.**  
+So what about `Kaboca(1 week)` or even `Kaboca(1 year)`?
+
+This function grows at **super-fast** rates — far beyond traditional large number systems.  
+It evolves not just by scale, but by the **acceleration of function complexity**, reaching unimaginable heights with each generation.
+
+**Kaboca is not just a number — it's a process of exponential explosions stacked on evolving operations.**
 

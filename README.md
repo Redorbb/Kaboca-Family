@@ -1,5 +1,12 @@
 # Kaboca-Family
-A mathematical function that outgrows any famous numbers and functions
+Kaboca Family of functions was introduced by a user known as Redorbb in 2025. These functions aim to explore extreme growth rates. The function name Kaboca, is derived from the Hungarian word for cicada, symbolizing rapid emergence and multiplication.
+
+The Kaboca family has 4 functions: Realistic Kaboca, Realistic finalKaboca, Mathematical Kaboca, Mathematical finalKaboca. The realistic ones respect physical time limits such as Planck time, while the mathematical ones doesn't respect such constraints. Now let me tell you about these functions.
+
+Kaboca is defined as Kaboca(t), where t is the time in hours, days or any preferred unit. For example Kaboca(24 hours) or Kaboca(1 week) represent the total number of Kabocas produced within that time under the rules defined below. So Writing Kaboca(1) means Kaboca(1 year)
+
+**Note:** `The Kaboca function is an original concept created by the author. It is not derived from or based on any existing large naming systems including those of Jonathan Bowers or others! `
+
 ## Generation 1 - start
 So we begin with a single Kaboca at generation `g = 1` .
 
@@ -40,7 +47,7 @@ First of all, these hatch chances aren't **fixed**, they shift the following way
 
 ### Examples of shifting:
 
-#### Generation 2:
+#### Generation 2 Hatches:
 
 - 70% chance -> 10 Kaboca
 - 25% chance -> 100 Kaboca
@@ -52,7 +59,7 @@ First of all, these hatch chances aren't **fixed**, they shift the following way
 - 70% chance -> 100 Kaboca
 - 25% chance -> 1000 Kaboca
 - 4% chance -> 1 super Kaboca
-- 1% chance -> 1 0 super Kaboca
+- 1% chance -> 10 super Kaboca
 
 #### Generation 4:
 
@@ -569,3 +576,122 @@ It evolves not just by scale, but by the **acceleration of function complexity**
 
 **Kaboca is not just a number — it's a process of exponential explosions stacked on evolving operations.**
 
+## Evolution functions and generations
+
+### Evolution functions
+Everything here has an order. Even functions that we apply that has an order, but they also evolving as well. Also evolution of them evolves as well.
+#### Recap
+At every 12 generations we always add one level higher function to it. So these will be the followings:
+At Generation 2 Hatches we get likely around 1 super Kaboca. This adds a f(x) = x + k to the egg lay count.
+- At generation 5 it adds it adds it to the lay egg times.
+- At generation 8 adds it at Hatching numbers.
+- At generaation 11 adds it to the reproduction time.
+
+
+At generation 11 all 4 Kaboca components (lay egg count,lay egg times, hatching numbers,reproduction time) will have F(x) = x + k with them. The next generations will carry these functions with them. They will look something like this:
+- egg lay count = x^2^g + k
+- egg lay times = g + k
+- hatching numbers = (Numbers per the chances) + k
+- reproduction time = 24 / (g+k)
+
+At generation 23 all components will receive F(x) = k*x so they will look like this
+- egg lay count = k* (x^2^g + k)
+- egg lay times = k*(g + k)
+- hatching numbers = k*((Numbers per the chances) + k)
+- reproduction time = 24 / k*(g+k)
+
+Lets use Kaboca Components from now on. So the first Component refers to `egg lay count`, the second Component refers to `egg lay times` etc.
+
+At generation 35 we will add F(x) = X^K function to our existing expression so it will look something like
+- Kaboca Komponents = (k * (x + k))^k
+
+At generation 47 we will have F(x) = k^x
+- Kaboca Komponents = k^((k * (x + k))^k)
+
+So you mught be asking, what is the sequence. Which functions we will give at every 12 generations to our expressions? I will show you a detailed order.
+
+### Order of the functions and their evolution
+Lets consider k=2 the smallest value so this is the order.
+
+1. F(x) = x + k (affine)
+2. F(x) = k*x (multiplicative)
+3. F(x) = x^k (power function)
+4. F(x) = k^x (exponential function)
+5. F(x) = k ↑ ↑ x (tetration)
+6. F(x) = k ↑ ↑ ↑ x (pentation)
+7. F(x) = k ↑ ↑ ↑ ↑ x (hexation)
+
+So our expression at 12 * 7 = 84th generation our first Kaboca Component will look something like this:
+k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x+k))^k. This expression keeps going and growing at every 12 generations.
+Lets call this expression R. This R means Rest. So the entire expression till now.
+After these, 7 functions written above, the function will evolve. Instead of going one operation it will go the following way:
+
+8.  F(x) = hyper_{6+k}(k,x)
+9.  F(X) = hyper_{k*(6+k)}(k,x)
+10. F(X) = hyper_{(k*(6+k))^k}(k,x)
+11. F(X) = hyper_{k^((k*(6+k))^k)}(k,x)
+12. F(X) = hyper_{k ↑ ↑ k^((k*(6+k))^k)}(k,x)
+13. F(X) = hyper_{k ↑ ↑ ↑ (k ↑ ↑ k^((k*(6+k))^k))}(k,x)
+14. F(X) = hyper_{k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(6+k))^k)))}(k,x)
+
+As you can see the say functions are applied here as the first in the first ones, but they are putted on the index of the hyper function. So Our first Kaboca Komponent at generation 168 will look something like this
+- egg count =  hyper_{k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(6+k))^k)))}(k,R)
+- where R is k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x+k))^k
+- and x is 10^2^g = 10^2^168
+
+So our final expression will look something like this
+hyper_{k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(6+k))^k)))}(k , k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(10^2^168+k))^k)
+
+After this evolution takes place again and instead of putting the hyper in the index, we will put hyper to the index of the index. Nest it one moree time
+
+15.  F(x) = hyper_{hyper_{6+k}(k,x)}(k,x)
+16.  F(x) = hyper_{hyper_{k*(6+k)}(k,x))}(k,x)
+17.  F(x) = hyper_{hyper_{(k*(6+k))^k}(k,x)}(k,x)
+18.  **And so on**
+
+Every 7th function addings which is 84 generations, we will evolving our function. What this is tell us we have more then 10^44 generation around 90th hour.
+So we aren't gonna do all that instead we are gonna use a weaker function, a generation version of Kaboca, instead of the time paramater for now. Just to estimate where these numbers stand
+We will call this KabocaG function where G refers to the generation number.
+
+#### Evolution of evolution
+We know now that every 7th (84 generations) adds an evolution. So our evolution/84 generations the added functions will look something like this:
+
+1. F(x) = x + k evolution level (1)
+2. F(x) = hyper_{6+k}(k,x) evolution level (2)
+3. F(x) = hyper_{hyper_{6+k}(k,x)}(k,x) evolution level (3)
+4. F(x) = hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x) evolution level (4)
+5. F(x) = hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x) evolution level (5)
+6. F(x) = hyper_{hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x)}(k,x) evolution level (6)
+7. F(x) = hyper_{hyper_{hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x)}(k,x)}(k,x) evolution level(7)
+
+This is where things explode even stronger. We Reached 7 evolutions. After the seventh evolution the evolution will have an evolution. So each evolution now gives the following functions/evolution to our R the following way:
+
+8. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is x + k times. evolution level(8)
+9. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k*(x + k) times. evolution level(9)
+10. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is (k*(x + k))^k times. evolution level(10)
+11. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k^((k*(x + k))^k) times. evolution level(11)
+12. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k ↑ ↑ k^((k*(x + k))^k) evolution level(12)
+13. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x + k))^k)) evolution level(13)
+14  hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x + k))^k))) evolution level(14)
+
+At 15 evolves again and continus the following way
+
+15. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is hyper_{6+k}(k,x) where x will be k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x + k))^k)))
+16. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is hyper_{k*(6+k)}(k,x) where x will be k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(x + k))^k)))
+17. **And so on**
+
+We are here now at lets say 15 evolution and around 1260 generations. KabocaG(1260). this is extremely huge number already and we are very far from 10^44(next second) and way far from Kaboca(90hours) and
+even way way far from Kaboca(1) = Kaboca (1 year).
+
+### Generation estimations
+It keeps growing and growing but not as a constant as an evolving function. Where evolution itself evolves as well.
+So how big is this number?
+
+1. It passed G1 at KabocaG(74) (74th generation)
+2. G2 is surpassed at KabocaG(86)
+3. G10 falls at KabocaG(122)
+4. surpasses Grahams number at KabocaG(158)
+5. Surpasses Tree(3) around KabocaG(254-266)
+6. Around KabocaG(1176) surpasses BB(8)
+
+## Final Kaboca

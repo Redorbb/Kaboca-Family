@@ -692,6 +692,7 @@ So how big is this number?
 3. G10 falls at KabocaG(122)
 4. surpasses Grahams number at KabocaG(158)
 5. Surpasses Tree(3) around KabocaG(254-266)
-6. Around KabocaG(600) surpasses BB(8)
+6. Around KabocaG(300) surpasses BB(8)
+7. Around KabocaG(10000) surpasses Tree(1000)
 
 ## Final Kaboca

@@ -642,7 +642,7 @@ As you can see the say functions are applied here as the first in the first ones
 So our final expression will look something like this
 hyper_{k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(6+k))^k)))}(k , k ↑ ↑ ↑ ↑ (k ↑ ↑ ↑ (k ↑ ↑ k^((k*(10^2^168+k))^k)
 
-After this evolution takes place again and instead of putting the hyper in the index, we will put hyper to the index of the index. Nest it one moree time
+After this evolution takes place again and instead of putting the hyper in the index, we will put hyper to the index of the index. Nest it one more time
 
 15.  F(x) = hyper_{hyper_{6+k}(k,x)}(k,x)
 16.  F(x) = hyper_{hyper_{k*(6+k)}(k,x))}(k,x)
@@ -659,12 +659,12 @@ We know now that every 7th (84 generations) adds an evolution. So our evolution/
 1. F(x) = x + k evolution level (1)
 2. F(x) = hyper_{6+k}(k,x) evolution level (2)
 3. F(x) = hyper_{hyper_{6+k}(k,x)}(k,x) evolution level (3)
-4. F(x) = hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x) evolution level (4)
+4. F(x) = hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)  evolution level (4)
 5. F(x) = hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x) evolution level (5)
 6. F(x) = hyper_{hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x)}(k,x) evolution level (6)
 7. F(x) = hyper_{hyper_{hyper_{hyper_{hyper_{hyper_{6+k}(k,x)}(k,x)}(k,x)}(k,x)}(k,x)}(k,x) evolution level(7)
 
-This is where things explode even stronger. We Reached 7 evolutions. After the seventh evolution the evolution will have an evolution. So each evolution now gives the following functions/evolution to our R the following way:
+This is where things explode even stronger. We Reached first evolution level 7. After this we will have an evolution of evolution. We are around generation 588.
 
 8. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is x + k times. evolution level(8)
 9. hyper_{hyper_hyper ... hyper{R}(k,R) total number of hypers is k*(x + k) times. evolution level(9)
@@ -683,21 +683,58 @@ At 15 evolves again and continus the following way
 We are here now at lets say 15 evolution and around 1260 generations. KabocaG(1260). this is extremely huge number already and we are very far from 10^44(next second) and way far from Kaboca(90hours) and
 even way way far from Kaboca(1) = Kaboca (1 year).
 
+#### Recap and examples
+
+So to understand more clearly how the evolution works, let me explain it to you with examples:
+Every 12 generations stack another layer of higher level function to our R. At 84 generation an evolution takes place where instead of hexation we apply F(x) = hyper_{6+k}(k,x).
+Each 12 generatin will apply a higher level function. So at generation 96 we will apply hyper_{k*(6+k)}(k,x) and so on.
+- At generation 168 another evoltuion(second one) comes. Which means we will have hyper_hyper functions instead of just simple hyper ones. Each 12 generation from here evolves the index of index.
+- At generation 252 another evolution(third one) and adds another hyper there from which each 12 generations will evolves the index index of index here, and so on.
+- At generation 588 comes our last seventh evolution.
+- At generation 672 evolves the evolution itself. So what this means, instead of one hyper/evolution, we will be having (x +k) hypers added. Which is 6 +2 = 8 hypers. So now each 12 generations will add one extra hyper instead of indexing and each evolution will add the followings:
+  1. k*(x+k) amount of hypers at the next evolution
+  2. (k*(x + k))^k amount of hypers at the next one
+  3. k^((k*(x + k))^k) amount of hypers at next and so on
+
+At the next evolution of evolution adds another layer of hypers. Doubling the speed of hyper addition to our Expression! Next evolution of evolution Triples the speed and so on.
+
+At generation 4116, evoluton^3 (evolution of evolution of evolution) will be triggered and instead of 6 * the speed hyper stackings what we've had earlier we will be adding
+- F(x) = x + k = 8 (which is 8x the stacking)
+- This changes the following:
+- each evolution^2 now adds
+  1. k*(x+k) to the speed of hyper stackings
+  2. (k*(x + k))^k to the speed of hyper stackings
+  3. k^((k*(x + k))^k) to the speed of hyper stackings
+
+And so on!
+  
 ### Generation estimations
 It keeps growing and growing but not as a constant as an evolving function. Where evolution itself evolves as well.
 So how big is this number?
 
-1. It passed G1 at KabocaG(74) (74th generation)
-2. G2 is surpassed at KabocaG(86)
-3. G10 falls at KabocaG(122)
-4. surpasses Grahams number at KabocaG(158)
-5. Surpasses Tree(3) around KabocaG(254-266)
-6. Around KabocaG(300) surpasses BB(8)
-7. Around KabocaG(10000) surpasses Tree(1000)
-8. Around KabocaG(100000) >> Tree(Tree(4))
+1. KabocaG(74) > G1 (74th generation)
+2. KabocaG(86) > G2
+3. KabocaG(122) > G10
+4. KabocaG(158) > Grahams number
+5. KabocaG(254-266) > Tree(3)
+6. KabocaG(300) > BB(8)
+7. KabocaG(10000) > Tree(1000)
+8. KabocaG(100000) >> Tree(Tree(4))
 
 Why it grows so fast? Its a hypertransfinite growth, cuz each 84 generations makes 1 evolution.
 - Each 84 * 7 evolves the evolution itself.
 - Each 84 * (7^2) evolves the evoltutions evolution and so on.
+So just estimating the number of hyperStacks that are added in the expression, at KabocaG(1000000) exceeds Rayo(100).
+
+So knowing all this how much is KabocaG(10^7) or KabocaG(10^8) or even a better question how much is KabocaG(10^44) cuz here we will reach the next second.
+
+#### Magnitude and growth strength
+Evolution tier list:
+1. E1 = 84
+2. E2 = 588
+3. E3 = 4116
+4. E4 = 28812
+
+
 
 ## Final Kaboca

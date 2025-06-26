@@ -1,7 +1,7 @@
 # Kaboca-Family
 Kaboca Family of functions was introduced by a user known as Redorbb in 2025. These functions aim to explore extreme growth rates. The function name Kaboca, is derived from the Hungarian word for cicada, symbolizing rapid emergence and multiplication.
 
-The Kaboca family has 4 functions: Realistic Kaboca, Realistic finalKaboca, Mathematical Kaboca, Mathematical finalKaboca. The realistic ones respect physical time limits such as Planck time, while the mathematical ones doesn't respect such constraints. Now let me tell you about these functions.
+The Kaboca family has 4 functions: Realistic Kaboca, Realistic finalKaboca, Mathematical Kaboca, Mathematical finalKaboca. The realistic ones respect physical time limits such as Planck time or partially respects them, while the mathematical ones doesn't respect such constraints. Now let me tell you about these functions.
 
 Kaboca is defined as Kaboca(t), where t is the time in hours, days or any preferred unit. For example Kaboca(24 hours) or Kaboca(1 week) represent the total number of Kabocas produced within that time under the rules defined below. So Writing Kaboca(1) means Kaboca(1 year)
 
@@ -735,6 +735,31 @@ Evolution tier list:
 3. E3 = 4116
 4. E4 = 28812
 
+It's just getting stronger and stronger the diagramm below will show us the growth rate of BB,SCG,KabocaG and Kaboca.
+![Kaboca Growth chart](Kaboca_Magnitude.png)
 
+## Final_Kaboca
+FinalKaboca is the big brother of our Kaboca function. It grows much faster then Kaboca and has different rules. Now everything is the same as for Kaboca, except for two things! The first thing is, instead of super Kabocas, we will have Magic Kabocas. The second thing is, it is still limeted to planick time but only temporarly.
 
-## Final Kaboca
+### First change
+We will hatch magic Kabocas instead of super ones. All four components and hatching chances are the same. Now let me tell you what a magic Kaboca does effect and how. First of all it instead of giving one modifier function to one component, it gives one modifier to all
+4 Components. Instead of higher and higher functions/ Magic^k Kaboca it will give 1 hyper_{x,k} to all Components. 
+1. Magic Kaboca gives hyper_{x,k} to all 4 Components
+2. Magic^2 Kaboca it adds Hyper_{x,k} amount of hypers to all 4 Components.
+3. Magic^3 Kaboca it adds Hyper_{x,k} * Hyper_{x,k} amount of hypers to all 4 Components
+4. And so on
+
+So knowing this Every 3 generations a new tier of Magic Kaboca will appear. So A magic Kaboca does a sorcerry with all Components, while a magic^2 Kaboca does a sorcerry with the magic itself. Here things don't follow a slow evolution order, just like at Kaboca. Here
+things evolve by magic itself. This tells us that the evolution comes from magic and not from generations. Of course generations evolve magic as well but here the evolution itself it has a lesser role compared to Kaboca.  Every 3 Generations a higher tier Magic Kaboca will hatch which gives a huge amount of evolution to the next generation. 
+
+### Second change
+The second change is that when we reach Planick time, That time will only remain temporarly. SO when we reach Planick Time it will remain there until we reach FinalKaboca(1) (1 year). Now after we reached 1 year, then the expression in the reproduction count will be 
+executed once, and will remain on that level until we reach FinalKaboca(2).
+
+### Estimation
+Lets try to estimate a couple. So At FinalKabocaG(1) we will only have 1 Kaboca. After 24 hours we will have around 7201 Kabocas, from which we will have 1 magic variant! From here already things will so drastically explode that at 24 hours and 1 seconds we already
+will have 10^44 generations, cuz we reached planick time. 
+
+##Strength and growth
+Much stronger then Kaboca.
+

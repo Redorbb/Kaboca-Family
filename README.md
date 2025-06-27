@@ -9,6 +9,7 @@ Kaboca is defined as Kaboca(t), where t is the time in hours, days or any prefer
 `The Kaboca and FinalKaboca function wans invented by Redorbb`
 
 `Published:2025-06-27`
+`https://archive.org/details/httpsgithub.comredorbbkaboca-familyblobmainreadme.md`
 
 ## Generation 1 - start
 So we begin with a single Kaboca at generation `g = 1` .

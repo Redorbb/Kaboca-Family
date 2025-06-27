@@ -760,6 +760,14 @@ executed once, and will remain on that level until we reach FinalKaboca(2).
 Lets try to estimate a couple. So At FinalKabocaG(1) we will only have 1 Kaboca. After 24 hours we will have around 7201 Kabocas, from which we will have 1 magic variant! From here already things will so drastically explode that at 24 hours and 1 seconds we already
 will have 10^44 generations, cuz we reached planick time. 
 
-##Strength and growth
+## Strength and growth
 Much stronger then Kaboca.
+![Kaboca Growth chart](Final_Kaboca.png)
 
+## Mathematical Kaboca
+The Mathematical Kaboca, works the same way as Kaboca, the only difference is that it isn't limited of planick time. Now What this means?  This means that around 322,740 seconds we will get a huge finite number, but
+at 322,741 seconds we will get infinity because of convergence. The reproduction time generation by generation it gets so small that those small and smaller values will never gonna reach the next second.
+So the value of Mathematical Kaboca is pratically infinity cuz we will get infinite amount of generations whiich means we will get infinite amount of Kabocas.
+
+## Mathematical Final_Kaboca
+The same as for Mathematical_kaboca, but faster. It practically reaches it's maximum around 24 hours but at 24 hours and 1 seconds it will be infinity.

@@ -6,6 +6,9 @@ The Kaboca family has 4 functions: Realistic Kaboca, Realistic finalKaboca, Math
 Kaboca is defined as Kaboca(t), where t is the time in hours, days or any preferred unit. For example Kaboca(24 hours) or Kaboca(1 week) represent the total number of Kabocas produced within that time under the rules defined below. So Writing Kaboca(1) means Kaboca(1 year)
 
 **Note:** `The Kaboca function is an original concept created by the author. It is not derived from or based on any existing large naming systems including those of Jonathan Bowers or others! `
+`The Kaboca and FinalKaboca function wans invented by Redorbb`
+
+`Published:2025-06-27`
 
 ## Generation 1 - start
 So we begin with a single Kaboca at generation `g = 1` .
